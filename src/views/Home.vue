@@ -1,6 +1,7 @@
 <template>
     <span>
         <home-hero></home-hero>
+        <home-details></home-details>
     </span>
 </template>
 
@@ -8,11 +9,14 @@
 
 
 import HomeHero from '@/components/HomeHero.vue';
+import HomeDetails from '@/components/HomeDetails.vue';
 
 export default {
     name: 'home',
+
     components: {
-        HomeHero
+        HomeHero,
+        HomeDetails,
     }
 };
 </script>
